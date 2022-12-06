@@ -51,9 +51,9 @@ public class UsuarioMocks {
 		return new ArrayList<>();
 	}
 
-	public static Foto fotosMock(){ return new Foto(url);}
+	public static String fotosMock(){ return "url";}
 
-	public static FotoDto fotoDtoMock(){ return new FotoDto(url); }
+	public static String fotoDtoMock(){ return "url"; }
 
 	public static Usuario usuarioMock() {
 		return new Usuario(nome, email, senha, enderecoMock(), telefoneMock(), perfisMock(), fotosMock());
